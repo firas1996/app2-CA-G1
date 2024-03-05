@@ -12,7 +12,7 @@ function App() {
     if (token == 1) {
       setIsLoggedIn(true);
     }
-    console.log("aaa");
+    // console.log("aaa");
   }, []);
   const loginHandler = (email, password) => {
     setIsLoggedIn(true);
