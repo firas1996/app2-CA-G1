@@ -26,7 +26,7 @@ const passwordReducer = (prevState, action) => {
   }
   return { value: "", isVaid: null };
 };
-const Login = (props) => {
+const Login = () => {
   const { onLogin } = useContext(AuthContext);
   // const [enteredEmail, setEanteredEmail] = useState("");
   // const [emailIsValid, setEmailIsValid] = useState();
